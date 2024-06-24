@@ -1,0 +1,37 @@
+*java was developed by james gosling with two others at sun microsystems at 1991
+*initial name was oak but it was renamed to java in 1995
+*it is completely object oriented
+*c developed by dennis ritchic and c++ by bjane strosstroph
+
+Applications:
+*developing desktop Applications
+*robotics and games
+*android
+*embedded system
+
+features:
+*easy to learn
+*object oriented(object,class,inheritance,polymorphism,abstraction,encapsulation)
+*exception handling
+*garbage collector
+*platform independent(work on window,mac,linux):on compilation java program is compiled into bytecode which is platform independent
+*multi threading 
+
+tokens: each individual element of programming language.tokens are :
+keywords-reserved words eg int,char,for,public
+identifiers:variables,function and class names
+literals(constants)
+punctuators/seperators
+operators
+
+datatypes:
+primitive(built in):boolean,int,float,char,byte,short,double,long
+non primitive(user defined):array,stack,queue,string
+
+increment/decrement operators:prefix and postfix
+a++,a--,--a,++a
+
+logical operators:and,or,not
+
+public:available to available
+static:without making object of class,function will run
