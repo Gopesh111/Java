@@ -1,23 +1,21 @@
-import java.util.*;
-public class palindrome {
-public static void main(String[] args)
+import java.util.Scanner;
+class B
 {
-    Scanner s=new Scanner(System.in);
-    System.out.println("enter number");
-    int n=s.nextInt();
-    int a=n;
-    int rev=0;
-    while(n>0)
+    static boolean palindrome(int n)
     {
-        rev=n%10+rev*10;
-         n=n/10;
+        int rev=0;
+        int org=n;
+        while(n>0)
+        {
+          int last=n%10;
+          rev=(rev*10)+last;
+          n=n/10;
+        }
+        return org==rev;
     }
-    if(a==rev)
-    {
-        System.out.println("Palindrome");
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int num=s.nextInt();
+        System.out.println(palindrome(num));
     }
-    else{
-        System.out.println("Not palindrome");
-    }
-}
 }
